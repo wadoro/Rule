@@ -21,3 +21,4 @@ DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,weixin.qq.com
+IP-CIDR,198.11.0.0/16
