@@ -1,0 +1,23 @@
+USER-AGENT,AwemeI18n*
+USER-AGENT,WeChat*
+USER-AGENT,ICBCiPhone*
+DOMAIN-SUFFIX,chinamobile.com
+// System Related
+DOMAIN,xp.apple.com
+DOMAIN,captive.apple.com
+DOMAIN,guzzoni.apple.com
+DOMAIN,api.smoot.apple.com
+DOMAIN-SUFFIX,ess.apple.com
+DOMAIN,api.smoot.apple.com.cn
+DOMAIN,configuration.apple.com
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN,smp-device-content.apple.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+// DIRECT&PROXY
+DOMAIN-KEYWORD,torrent
+DOMAIN-SUFFIX,actvb.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,weixin.qq.com
