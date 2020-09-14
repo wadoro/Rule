@@ -281,6 +281,10 @@ Install_ct(){
             echo "------------------------------"
             if test -a /usr/bin/gost -a /usr/lib/systemctl/gost.service -a /etc/gost/config.json;then
              echo "gost似乎安装成功"
+             `rm -rf "$(pwd)"/gost`
+             `rm -rf "$(pwd)"/gost.service`
+             `rm -rf "$(pwd)"/config.json`
+             `rm -rf "$(pwd)"/gost.sh`
             else
             echo "gost没有安装成功，可以到https://www.fiisi.com评论留言询问"
              `rm -rf   "$(pwd)"/gost`
