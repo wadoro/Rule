@@ -270,7 +270,7 @@ Install_ct(){
            check_sys
            check_new_ver
            `rm -rf gost-linux-"$bit"-"$ct_new_ver".gz`
-           `wget --no-check-certificate https://github.com/ginuerzh/gost/releases/download/v"$ct_new_ver"/gost-linux-"$bit"-"$ct_new_ver".gz`
+           `wget --no-check-certificate https://github.com/wadoro/gost/releases/download/v"$ct_new_ver"/gost-linux-"$bit"-"$ct_new_ver".gz`
             `gunzip gost-linux-"$bit"-"$ct_new_ver".gz`
             `mv gost-linux-"$bit"-"$ct_new_ver" gost`
             `mv gost /usr/bin/gost`
