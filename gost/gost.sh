@@ -256,7 +256,6 @@ check_nor_file(){
            `rm -rf "$(pwd)"/gost`
              `rm -rf "$(pwd)"/gost.service`
              `rm -rf "$(pwd)"/config.json`
-             `rm -rf "$(pwd)"/gost.sh`
              `rm -rf /etc/gost`
              `rm -rf /usr/lib/systemd/system/gost.service`
              `rm -rf /usr/bin/gost`
@@ -284,7 +283,6 @@ Install_ct(){
              `rm -rf "$(pwd)"/gost`
              `rm -rf "$(pwd)"/gost.service`
              `rm -rf "$(pwd)"/config.json`
-             `rm -rf "$(pwd)"/gost.sh`
             else
             echo "gost没有安装成功，可以到https://www.fiisi.com评论留言询问"
              `rm -rf   "$(pwd)"/gost`
