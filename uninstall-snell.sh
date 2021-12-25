@@ -8,5 +8,6 @@ rm -rf /etc/systemd/system/snell.service
 rm -rf /etc/snell/snell-server.conf
 rm -rf /etc/snell
 rm -rf /root/snell*
+rm -rf /root/uninstall-snell*
 systemctl daemon-reload
 echo -e "Snell \033[1;32m 卸载完成 \033[0m"
