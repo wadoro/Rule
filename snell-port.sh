@@ -27,8 +27,8 @@ if [ -f ${CONF} ]; then
     echo -e " \033[1;32m 开始安装 \033[0m Snell"
   if [ -z ${snell_port} ]; then
     echo -e "请输入 Snell 端口 [1-65535]"
-    read -e -p "(默认: 12312):" snell_port
-    [[ -z "${snell_port}" ]] && snell_port="12312"
+    read -e -p "(默认: 38274):" snell_port
+    [[ -z "${snell_port}" ]] && snell_port="38274"
 
 		echo "============================="
 		echo -e "端口 : \033[43;35m ${snell_port} \033[0m"
@@ -42,8 +42,8 @@ if [ -f ${CONF} ]; then
 
   if [ -z ${snell_obfs} ]; then
     echo -e "请输入 obfs ( tls / http / off ) "
-    read -e -p "(默认: tls):" snell_obfs
-    [[ -z "${snell_obfs}" ]] && snell_obfs="tls"
+    read -e -p "(默认: http):" snell_obfs
+    [[ -z "${snell_obfs}" ]] && snell_obfs="http"
 
 		echo "============================="
 		echo -e "obfs : \033[43;35m ${snell_obfs} \033[0m"
